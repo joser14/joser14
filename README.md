@@ -22,13 +22,16 @@
 
 ## 🛡️ Tools
 
-Open source (MIT) and ready to use.
+Open source and ready to use.
 
 | Project | What it does | Get it |
 |---|---|---|
 | **[MalLab](https://github.com/joser14/MalLab)** | Windows malware analysis lab: static triage, YARA and Sigma, threat-intel lookups and detonation in a hardened Windows Sandbox. One installer; samples never run on the host. | [Download v1.2.2](https://github.com/joser14/MalLab/releases/latest) |
 | **[OrchestraAI](https://github.com/joser14/OrchestraAI)** | Your own private AI team on your PC. A composer plans the task, workers carry it out, and results land as files and PDFs. Runs locally on Ollama + OpenClaw, from a 4 GB laptop up to a GPU box. Windows, macOS, Linux. | [Download v0.3.2](https://github.com/joser14/OrchestraAI/releases/latest) |
 | **[AD-LAB](https://github.com/joser14/AD-LAB)** | One-script Active Directory lab on Hyper-V: a domain controller with AD CS, two Windows 11 clients and SQL Server 2022, built unattended from ISOs on an isolated network. | [Source](https://github.com/joser14/AD-LAB) |
+| **[wowhelper](https://github.com/joser14/wowhelper)** | A suite of World of Warcraft addons in one hub window, built for solo leveling. A small side panel shows only what needs doing right now. The helpers show information; the one exception, AutoQuest, only accepts and turns in quests in a window you opened, and can be switched off. Covered by automated tests. GPL-3.0. | [Source](https://github.com/joser14/wowhelper) |
+
+MalLab, OrchestraAI and AD-LAB are MIT-licensed.
 
 ## 🔒 Private projects
 
@@ -43,8 +46,6 @@ Not public. The research repos are shared on request with vetted researchers and
 **onyx**: "Rein in the Agent", a browser puzzle game from the same summit. Teams sort a rogue AI agent's jobs onto rule mats such as no spending, no sharing and no deleting. The agent fights back by trying to pull jobs off the mats. Get the sort right and the lock opens; it runs on Cloudflare Workers.
 
 **qr-code-app**: The scoring system behind the summit's team scavenger hunt. Teams scan QR codes at each stop, and every team is locked to a single phone to keep things fair. The app times each station and feeds a scorer's sheet and a live leaderboard. It runs on Cloudflare Workers with a D1 database.
-
-**wowhelper**: A suite of World of Warcraft addons gathered in one hub window, built for solo leveling. A small side panel shows only what needs doing right now. The helpers display information and never play for you, so they stay within the game's terms of service. Every helper is covered by automated tests.
 
 **game**: A 3D game built in Unity with the High Definition Render Pipeline. It has its own custom editor and build tooling, and uses the new Input System. Vehicle art is in progress, and Steam integration is planned. It's still in early development.
 
